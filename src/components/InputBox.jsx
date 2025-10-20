@@ -43,7 +43,7 @@ const InputBox = ({ onSendMessage }) => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
-            placeholder="Ask anything about your documents..."
+            placeholder="Ask anything..."
             className="w-full px-4 py-3 pr-20 border-2 border-gray-300 dark:border-gray-600 rounded-2xl focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 focus:border-transparent outline-none resize-none bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 shadow-lg transition-all"
             rows={1}
             maxLength={maxLength}
