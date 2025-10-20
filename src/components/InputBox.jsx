@@ -79,7 +79,7 @@ const InputBox = ({ onSendMessage }) => {
         </button>
       </div>
 
-      <div className="text-xs text-gray-500 dark:text-gray-400 text-center mt-2 space-x-4">
+      <div className=" hidden md:block text-xs text-gray-500 dark:text-gray-400 text-center mt-2 space-x-4">
         <span>Press <kbd className="px-1.5 py-0.5 bg-gray-200 dark:bg-gray-700 rounded font-mono">Enter</kbd> to send</span>
         <span>•</span>
         <span><kbd className="px-1.5 py-0.5 bg-gray-200 dark:bg-gray-700 rounded font-mono">Shift+Enter</kbd> for new line</span>
